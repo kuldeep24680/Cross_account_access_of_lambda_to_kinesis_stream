@@ -3,7 +3,7 @@ This project is used to establish a cross aws account access from account1 (Acco
 The project contains:
 1. Policy in account2 to allow access to stream
 2. Trust Relationship for account2 IAM role
-3. policy in account1 to esatblish STS connection from account1 to account2
+3. policy in account1 to establish STS connection from account1 to account2
 4. Trust relationship for account1 IAM role
-5. Pyhton code for lambda fucntion to ingest sample datarecords to kinesis stream in account2.
+5. Python code for lambda fucntion to ingest sample datarecords to kinesis stream in account2.
 
